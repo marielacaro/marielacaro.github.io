@@ -1,0 +1,51 @@
+/*--FOOTER--*/
+
+footer {
+  margin: 4rem 0 0 0;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: $black;
+  color: $white;
+  font-size: 0.8rem;
+
+    .social-icons {
+
+      a {
+        text-decoration: none;
+        color: $white;
+
+        .fab {
+          margin-right: 2rem;
+          font-size: 1.4rem;
+        }
+      }
+
+    }
+}
+
+.row {
+  margin-right: 0;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+  transition: 0.3s ease-in;
+  transform: scale(1.3);
+}
+
+.fa-instagram:hover {
+  color: #e00047;
+  transition: 0.3s ease-in;
+  transform: rotate(360deg) scale(1.3);
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+  transition: 0.3s ease-in;
+  transform: rotate(90deg) scale(1.3);
+}
+
+.fa-behance:hover {
+  color: #0057ff;
+  transition: 0.3s ease-in;
+  transform: scale(1.3);
+}

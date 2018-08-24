@@ -1,0 +1,133 @@
+@import "colors";
+@import "nav";
+@import "footer";
+@import "media";
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "Barlow Condensed", Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*--MAIN--*/
+
+.title-box {
+  width: 55%;
+}
+
+main {
+  margin: 0;
+  padding: 0 4rem 0 4rem;
+
+  @media (max-width: 480px) {
+    /*--MAIN--*/
+    main {
+      padding: 0 2rem 0 2rem;
+    }
+  }
+
+  div {
+    h2 {
+      font-family: "Barlow Condensed";
+      font-weight: 200;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      color: $black;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    span {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 1rem;
+      padding: 0.3rem;
+      margin: 0;
+      color: $white;
+      background-color: $black;
+    }
+
+    p {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      margin: 3rem 0 0 0;
+      padding: 0.5rem 0 0 0;
+      border-top: solid 3px $black;
+      width: 60%;
+    }
+
+  }
+
+
+  .radio_title {
+    position: absolute;
+    bottom: 360px;
+    left: -220px;
+  }
+
+  .info_title {
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    width: auto;
+  }
+
+  .macn_title {
+    position: absolute;
+    bottom: 30px;
+    left: -110px;
+  }
+
+  .revi_title {
+    position: absolute;
+    bottom: 280px;
+    right: -270px;
+    width: auto;
+  }
+}
+
+main div span:hover {
+  background-color: $purple;
+}
+
+/*---NUMBER MENU---*/
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 40px;
+  margin-top: 6rem;
+  padding-top: 0.5rem;
+  border-top: solid 10px $black;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+/*---IMAGENES---*/
+
+.img {
+  width: 100%;
+  margin-top: 6rem;
+  opacity: 1;
+}
+
+.img_infografia {
+  width: 100%;
+}
+
+.img:hover {
+  opacity: 0.5;
+}

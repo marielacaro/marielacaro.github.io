@@ -1,0 +1,148 @@
+/*---Cellphone---*/
+
+@media (max-width: 480px) {
+  /*--NAV BAR--*/
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      margin-top: 2rem;
+    }
+  }
+
+
+  /*--MAIN
+  main {
+    padding: 0 2rem 0 2rem !important;
+  }--*/
+
+  .radio_title {
+    position: static !important;
+  }
+
+  .info_title {
+    position: static !important;
+  }
+
+  .macn_title {
+    position: static !important;
+  }
+
+  .revi_title {
+    position: static !important;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    .col-12 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .social-icons {
+      margin-bottom: 1rem;
+    }
+  }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /*--NAV BAR--*/
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      margin-top: 2rem;
+    }
+  }
+
+
+  /*--MAIN--*/
+  main {
+    margin: 0 2rem 0 2rem;
+  }
+  .radio_title {
+    position: static !important;
+  }
+
+  .info_title {
+    position: static !important;
+  }
+
+  .macn_title {
+    position: static !important;
+  }
+
+  .revi_title {
+    position: static !important;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    .col-12 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .social-icons {
+      margin-bottom: 1rem;
+    }
+  }
+
+}
+
+
+/*---Tablet---*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*--MAIN--*/
+  .radio_title {
+    position: static !important;
+  }
+
+  .info_title {
+    position: static !important;
+  }
+
+  .macn_title {
+    position: static !important;
+  }
+
+  .revi_title {
+    position: static !important;
+  }
+
+}
+
+
+/*----Desktop----*/
+
+@media (min-width: 1024px) and (max-width:1280px) {
+
+  /*--MAIN--*/
+  .radio_title {
+    position: static !important;
+  }
+
+  .info_title {
+    position: static !important;
+  }
+
+  .macn_title {
+    position: static !important;
+  }
+
+  .revi_title {
+    position: static !important;
+  }
+
+}
